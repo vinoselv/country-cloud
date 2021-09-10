@@ -1,11 +1,11 @@
-# Country Cloud ![country-cloud workflow](https://github.com/vinoselv/country-cloud/actions/workflows/gradle.yml/badge.svg) ![Coverage](.github/badges/jacoco.svg)
+# Country Cloud ![country-cloud workflow](https://github.com/vinoselv/country-cloud/actions/workflows/maven.yml/badge.svg) ![Coverage](.github/badges/jacoco.svg)
 Country cloud is a RESTful web service provides country details, developed using the Spring Boot framework that 
 consumes / retrieves the country data from the [Rest countries](https://restcountries.eu/) project.
 
 ## What you will need
-- [Java 8](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)
 - [maven >= 3.0](http://maven.apache.org)
 - [maven wrapper](https://github.com/takari/maven-wrapper)
+- [Java 8](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)
 
 ## APIs
 Get all the country names and the country code.
