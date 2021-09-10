@@ -34,6 +34,11 @@ jobs:
         name: test-reports
         path: build/reports
         retention-days: 5
+    - name: Generate JaCoCo Badge
+      uses: cicirello/jacoco-badge-generator@v2
+      with:
+        generate-branches-badge: true
+        jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
     - name: Cleanup Gradle Cache
       # Remove some files from the Gradle cache, so they aren't cached by GitHub Actions.
       # Restoring these files from a GitHub Actions cache might cause problems for future builds.

@@ -29,3 +29,9 @@ test {
     finalizedBy jacocoTestReport // jacoco report is always generated after tests run
 }
 
+jacocoTestReport {
+    reports {
+        csv.enabled true
+    }
+}
+
